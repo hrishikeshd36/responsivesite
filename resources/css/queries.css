@@ -1,0 +1,289 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+/* big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1250px){
+    
+
+    .row{
+        padding: 0 2%;
+    }
+    .city-features i,
+    .city-features p{
+        font-size: 90%;
+    }
+    .plan-feature ul li{
+        font-size: 85%;
+    }
+    .plan-cards div{
+        padding: 15px 5px 15px 10px;
+    }
+    .app-screen{
+        width: 40%;
+    }
+    
+}
+
+/* small tablet to big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1131px){
+    html{
+        font-size: 18px;
+    }
+
+    .main-nav li {
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    .main-nav li a {
+        font-size: 80%;
+    }
+   .works-step div{
+        width: 40px;
+        height: 40px;
+        font-size: 150%;
+    }
+    .works-step p{
+        font-size: 85%;
+    }
+    .app-screen{
+        width: 50%;
+    }
+    
+
+    .city-features i{
+        margin-right: 10px;
+    }
+    .city-features p{
+        font-size: 87%;
+    }
+
+
+    blockquote{
+        font-size: 90%;     
+    }
+    .plan-feature ul li{
+        font-size: 82%;
+    }
+
+    .plan-cards{
+        width: 30%;
+        margin-left: 2%;        
+    }
+    .plans{
+        margin-left: 5%;
+    }
+    .pricing{
+        font-size: 200%;
+        padding-bottom: 5px;
+        font-weight: 300;
+    }
+    .pricing span{
+        font-size: 35%;
+    }
+    .plan-meal{
+        font-size: 75%;
+    }
+    .plan-price h3{
+        font-size: 80%;
+    }
+
+    
+}
+
+/* small phones to small tablet: from 481 to 767 px */
+@media only screen and (max-width: 767px){
+    html{
+        font-size: 18px;
+    }
+    .col{
+        width: 100%;
+        margin: 0;
+    }
+    .row{
+        width: 100%;
+        margin: 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .main-nav{
+        float: left;
+        margin-top: 20px;
+        position: relative;
+        left: 15%;
+    }
+    .main-nav li{
+        display: block;
+        border: none;
+        margin-top: 0px;
+        padding: 5px 0;
+    }
+    .main-nav li a{
+        display: block;
+        border: none;
+        padding: 0px 3px;
+        font-size: 110%;
+    }
+    .main-nav li a:hover {
+        border-bottom: none
+    }
+    .mobile-nav{
+        display: inline-block;
+    }
+    .sticky .mobile-nav i{
+        color: black;
+    }
+    .sticky{
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        z-index: 999;
+        
+    }
+    .sticky .main-nav li a {
+       color: #555;
+       padding: 0px 0px;
+   }
+   .sticky .main-nav{
+        margin-top: 30px;
+   }
+
+   .sticky .logo-black{
+       width: 10%;
+       position: absolute;
+       left: 5%;
+   }
+
+    h2{
+        font-size: 130%;
+        padding-bottom: 0px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    hr{
+        width: 15%;
+    }
+    .app-screen{
+        width: 35%;
+    }
+    .steps-box-1{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 30%;
+    }
+    .steps-box-2{
+        margin: 10px auto 10px auto;
+        padding: 0;
+        position: relative;
+        
+    }
+    .works-step div{
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+    .btn-app1 img,
+    .btn-app2 img {
+        margin-top: 0;
+        height: 35px;
+    }
+    .cities-info img{
+        width: 80%;
+    }
+    .testimonials{
+        margin-top: 40px;
+        padding-top: 50px;
+    }
+    .review-heading h2{
+        font-size:110%;
+        margin-top: 0;
+        position: relative;
+        bottom: 20px;   
+    }
+    .review-heading hr{
+        position: relative;
+        bottom: 20px;
+    }
+    cite img{
+        width: 8%;
+    }
+    blockquote{
+        line-height: 1.35;
+        font-size: 85%;
+        padding-bottom: 18px;
+    }
+    blockquote:before{
+
+        display: none;
+    }
+    .plan-cards{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .forms-row{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* small phones : from 0 to 480 px */
+@media only screen and (max-width: 480px){
+
+
+    .hero-text-box{
+        font-size: 80%;
+        margin-top: 20px;
+    }
+    .btn-full,
+    .btn-half {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 10px;
+     }
+
+    .works p{
+        font-size: 68%;
+    }
+
+
+    
+    .testimonials{
+        margin-top: 40px;
+        padding-top: 50px;
+    }
+    .review-heading h2{
+        font-size:80%;
+        position: relative;
+        bottom: 20px;   
+    }
+    .review-heading hr{
+        position: relative;
+        bottom: 20px;
+    }
+
+    blockquote{
+        line-height: 1.15;
+        font-size: 85%;
+
+        position: relative;
+        bottom: 30px;
+    }
+    cite{
+        position: relative;
+        bottom: 45px;
+        padding-bottom: 40px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+    
+}
